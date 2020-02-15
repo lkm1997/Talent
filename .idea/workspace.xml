@@ -6,172 +6,10 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="13c1ca8d-e2e3-4077-8f39-6730b0d85e06" name="Default Changelist" comment="文档管理系统">
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+    <list default="true" id="13c1ca8d-e2e3-4077-8f39-6730b0d85e06" name="Default Changelist" comment="">
       <change afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/dataSources/493d3fb9-d6e1-41d5-8b85-156efe982561.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DocShareMaven.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/git" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/net/MybootApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/net/Service/UserService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/net/Service/UserServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/net/aop/AopUser.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/net/aop/SleepHelper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/net/dao/UserDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/net/javabean/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/net/javabean/LayuiDate.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/net/javabean/List2TreeUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/net/javabean/Menu.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/net/javabean/MenuLayui.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/net/javabean/Myfile.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/net/servlet/JumpController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/net/servlet/UserController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/net/servlet/WebAppConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resource/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resource/log4j.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resource/mapper/Dept.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/backgroup/css/forntmanager.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/backgroup/css/login.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/backgroup/html/authority.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/backgroup/js/jquery-3.4.1.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/backgroup/js/json2.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/backgroup/js/login.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/backgroup/jsp/authority.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/backgroup/jsp/backgroupmain.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/backgroup/jsp/login.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/backgroup/jsp/usermanager.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/front/css/forntmanager.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/front/css/reglogin.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/front/html/FrontMain.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/front/js/jquery-3.4.1.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/front/js/json2.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/front/js/reglogin.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/front/jsp/frontmain.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/front/jsp/login.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/front/jsp/mydoc.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/front/jsp/myscore.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/front/jsp/personinfo.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/front/jsp/reg.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/front/jsp/updoc.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/css/layui.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/css/layui.mobile.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/css/modules/code.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/css/modules/laydate/default/laydate.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/css/modules/layer/default/icon-ext.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/css/modules/layer/default/icon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/css/modules/layer/default/layer.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/css/modules/layer/default/loading-0.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/css/modules/layer/default/loading-1.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/css/modules/layer/default/loading-2.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/font/iconfont.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/font/iconfont.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/font/iconfont.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/font/iconfont.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/font/iconfont.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/images/face/0.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/images/face/1.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/images/face/10.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/images/face/11.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/images/face/12.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/images/face/13.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/images/face/14.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/images/face/15.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/images/face/16.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/images/face/17.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/images/face/18.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/images/face/19.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/images/face/2.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/images/face/20.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/images/face/21.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/images/face/22.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/images/face/23.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/images/face/24.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/images/face/25.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/images/face/26.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/images/face/27.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/images/face/28.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/images/face/29.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/images/face/3.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/images/face/30.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/images/face/31.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/images/face/32.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/images/face/33.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/images/face/34.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/images/face/35.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/images/face/36.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/images/face/37.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/images/face/38.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/images/face/39.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/images/face/4.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/images/face/40.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/images/face/41.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/images/face/42.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/images/face/43.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/images/face/44.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/images/face/45.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/images/face/46.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/images/face/47.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/images/face/48.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/images/face/49.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/images/face/5.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/images/face/50.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/images/face/51.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/images/face/52.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/images/face/53.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/images/face/54.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/images/face/55.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/images/face/56.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/images/face/57.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/images/face/58.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/images/face/59.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/images/face/6.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/images/face/60.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/images/face/61.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/images/face/62.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/images/face/63.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/images/face/64.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/images/face/65.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/images/face/66.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/images/face/67.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/images/face/68.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/images/face/69.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/images/face/7.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/images/face/70.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/images/face/71.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/images/face/8.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/images/face/9.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/lay/modules/carousel.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/lay/modules/code.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/lay/modules/colorpicker.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/lay/modules/element.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/lay/modules/flow.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/lay/modules/form.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/lay/modules/jquery.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/lay/modules/laydate.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/lay/modules/layedit.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/lay/modules/layer.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/lay/modules/laypage.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/lay/modules/laytpl.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/lay/modules/mobile.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/lay/modules/rate.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/lay/modules/slider.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/lay/modules/table.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/lay/modules/transfer.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/lay/modules/tree.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/lay/modules/upload.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/lay/modules/util.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/layui.all.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/layui.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/target/classes/WEB-INF/web.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/target/classes/application.yml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/target/classes/backgroup/css/forntmanager.css" afterDir="false" />
@@ -960,8 +798,16 @@
       <workItem from="1581682076860" duration="597000" />
       <workItem from="1581686916120" duration="71000" />
       <workItem from="1581730526680" duration="2697000" />
-      <workItem from="1581734762286" duration="753000" />
+      <workItem from="1581734762286" duration="1001000" />
     </task>
+    <task id="LOCAL-00001" summary="文档管理系统">
+      <created>1581735752719</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1581735752720</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -997,7 +843,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="276356000" />
+    <option name="totallyTimeSpent" value="276604000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1011,7 +857,7 @@
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2632375" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2632375" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="UI Designer" order="3" />
@@ -1023,17 +869,17 @@
       <window_info anchor="bottom" id="Debug" order="3" weight="0.18835616" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.49848714" visible="true" weight="0.24657534" />
+      <window_info active="true" anchor="bottom" id="TODO" order="6" sideWeight="0.49848714" visible="true" weight="0.24657534" />
       <window_info anchor="bottom" id="FindBugs-IDEA" order="7" weight="0.32876712" />
       <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.4969743" weight="0.32876712" />
       <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Sequence" order="10" />
-      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.5015129" side_tool="true" visible="true" weight="0.24657534" />
+      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.5015129" side_tool="true" weight="0.24657534" />
       <window_info anchor="bottom" id="Messages" order="12" weight="0.08732877" />
       <window_info anchor="bottom" id="Run with VisualVM" order="13" />
       <window_info anchor="bottom" id="Java Enterprise" order="14" />
       <window_info anchor="bottom" id="Database Changes" order="15" />
-      <window_info anchor="bottom" id="Version Control" order="16" />
+      <window_info anchor="bottom" id="Version Control" order="16" weight="0.32876712" />
       <window_info anchor="bottom" id="Debug with VisualVM" order="17" />
       <window_info anchor="bottom" id="MyBatis Log" order="18" />
       <window_info anchor="bottom" id="Tail" order="19" />
