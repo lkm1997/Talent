@@ -1,0 +1,1516 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="DocShareMaven:war exploded" />
+    </artifacts-to-build>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="13c1ca8d-e2e3-4077-8f39-6730b0d85e06" name="Default Changelist" comment="文档管理系统">
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources/493d3fb9-d6e1-41d5-8b85-156efe982561.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DocShareMaven.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/git" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/net/MybootApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/net/Service/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/net/Service/UserServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/net/aop/AopUser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/net/aop/SleepHelper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/net/dao/UserDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/net/javabean/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/net/javabean/LayuiDate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/net/javabean/List2TreeUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/net/javabean/Menu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/net/javabean/MenuLayui.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/net/javabean/Myfile.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/net/servlet/JumpController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/net/servlet/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/net/servlet/WebAppConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resource/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resource/log4j.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resource/mapper/Dept.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/backgroup/css/forntmanager.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/backgroup/css/login.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/backgroup/html/authority.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/backgroup/js/jquery-3.4.1.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/backgroup/js/json2.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/backgroup/js/login.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/backgroup/jsp/authority.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/backgroup/jsp/backgroupmain.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/backgroup/jsp/login.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/backgroup/jsp/usermanager.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/front/css/forntmanager.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/front/css/reglogin.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/front/html/FrontMain.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/front/js/jquery-3.4.1.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/front/js/json2.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/front/js/reglogin.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/front/jsp/frontmain.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/front/jsp/login.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/front/jsp/mydoc.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/front/jsp/myscore.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/front/jsp/personinfo.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/front/jsp/reg.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/front/jsp/updoc.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/css/layui.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/css/layui.mobile.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/css/modules/code.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/css/modules/laydate/default/laydate.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/css/modules/layer/default/icon-ext.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/css/modules/layer/default/icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/css/modules/layer/default/layer.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/css/modules/layer/default/loading-0.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/css/modules/layer/default/loading-1.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/css/modules/layer/default/loading-2.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/font/iconfont.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/font/iconfont.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/font/iconfont.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/font/iconfont.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/font/iconfont.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/images/face/0.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/images/face/1.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/images/face/10.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/images/face/11.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/images/face/12.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/images/face/13.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/images/face/14.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/images/face/15.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/images/face/16.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/images/face/17.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/images/face/18.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/images/face/19.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/images/face/2.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/images/face/20.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/images/face/21.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/images/face/22.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/images/face/23.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/images/face/24.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/images/face/25.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/images/face/26.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/images/face/27.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/images/face/28.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/images/face/29.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/images/face/3.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/images/face/30.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/images/face/31.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/images/face/32.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/images/face/33.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/images/face/34.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/images/face/35.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/images/face/36.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/images/face/37.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/images/face/38.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/images/face/39.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/images/face/4.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/images/face/40.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/images/face/41.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/images/face/42.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/images/face/43.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/images/face/44.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/images/face/45.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/images/face/46.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/images/face/47.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/images/face/48.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/images/face/49.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/images/face/5.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/images/face/50.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/images/face/51.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/images/face/52.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/images/face/53.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/images/face/54.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/images/face/55.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/images/face/56.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/images/face/57.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/images/face/58.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/images/face/59.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/images/face/6.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/images/face/60.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/images/face/61.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/images/face/62.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/images/face/63.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/images/face/64.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/images/face/65.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/images/face/66.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/images/face/67.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/images/face/68.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/images/face/69.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/images/face/7.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/images/face/70.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/images/face/71.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/images/face/8.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/images/face/9.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/lay/modules/carousel.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/lay/modules/code.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/lay/modules/colorpicker.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/lay/modules/element.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/lay/modules/flow.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/lay/modules/form.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/lay/modules/jquery.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/lay/modules/laydate.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/lay/modules/layedit.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/lay/modules/layer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/lay/modules/laypage.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/lay/modules/laytpl.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/lay/modules/mobile.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/lay/modules/rate.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/lay/modules/slider.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/lay/modules/table.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/lay/modules/transfer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/lay/modules/tree.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/lay/modules/upload.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/lay/modules/util.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/layui.all.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/layui.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/backgroup/css/forntmanager.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/backgroup/css/login.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/backgroup/html/authority.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/backgroup/js/jquery-3.4.1.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/backgroup/js/json2.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/backgroup/js/login.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/backgroup/jsp/authority.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/backgroup/jsp/backgroupmain.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/backgroup/jsp/login.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/backgroup/jsp/usermanager.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/front/css/forntmanager.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/front/css/reglogin.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/front/html/FrontMain.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/front/js/jquery-3.4.1.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/front/js/json2.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/front/js/reglogin.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/front/jsp/frontmain.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/front/jsp/login.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/front/jsp/mydoc.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/front/jsp/myscore.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/front/jsp/personinfo.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/front/jsp/reg.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/front/jsp/updoc.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/layui/css/layui.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/layui/css/layui.mobile.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/layui/css/modules/code.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/layui/css/modules/laydate/default/laydate.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/layui/css/modules/layer/default/icon-ext.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/layui/css/modules/layer/default/icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/layui/css/modules/layer/default/layer.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/layui/css/modules/layer/default/loading-0.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/layui/css/modules/layer/default/loading-1.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/layui/css/modules/layer/default/loading-2.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/layui/font/iconfont.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/layui/font/iconfont.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/layui/font/iconfont.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/layui/font/iconfont.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/layui/font/iconfont.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/layui/images/face/0.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/layui/images/face/1.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/layui/images/face/10.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/layui/images/face/11.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/layui/images/face/12.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/layui/images/face/13.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/layui/images/face/14.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/layui/images/face/15.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/layui/images/face/16.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/layui/images/face/17.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/layui/images/face/18.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/layui/images/face/19.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/layui/images/face/2.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/layui/images/face/20.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/layui/images/face/21.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/layui/images/face/22.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/layui/images/face/23.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/layui/images/face/24.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/layui/images/face/25.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/layui/images/face/26.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/layui/images/face/27.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/layui/images/face/28.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/layui/images/face/29.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/layui/images/face/3.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/layui/images/face/30.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/layui/images/face/31.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/layui/images/face/32.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/layui/images/face/33.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/layui/images/face/34.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/layui/images/face/35.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/layui/images/face/36.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/layui/images/face/37.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/layui/images/face/38.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/layui/images/face/39.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/layui/images/face/4.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/layui/images/face/40.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/layui/images/face/41.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/layui/images/face/42.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/layui/images/face/43.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/layui/images/face/44.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/layui/images/face/45.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/layui/images/face/46.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/layui/images/face/47.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/layui/images/face/48.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/layui/images/face/49.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/layui/images/face/5.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/layui/images/face/50.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/layui/images/face/51.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/layui/images/face/52.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/layui/images/face/53.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/layui/images/face/54.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/layui/images/face/55.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/layui/images/face/56.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/layui/images/face/57.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/layui/images/face/58.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/layui/images/face/59.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/layui/images/face/6.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/layui/images/face/60.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/layui/images/face/61.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/layui/images/face/62.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/layui/images/face/63.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/layui/images/face/64.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/layui/images/face/65.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/layui/images/face/66.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/layui/images/face/67.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/layui/images/face/68.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/layui/images/face/69.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/layui/images/face/7.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/layui/images/face/70.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/layui/images/face/71.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/layui/images/face/8.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/layui/images/face/9.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/layui/lay/modules/carousel.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/layui/lay/modules/code.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/layui/lay/modules/colorpicker.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/layui/lay/modules/element.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/layui/lay/modules/flow.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/layui/lay/modules/form.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/layui/lay/modules/jquery.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/layui/lay/modules/laydate.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/layui/lay/modules/layedit.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/layui/lay/modules/layer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/layui/lay/modules/laypage.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/layui/lay/modules/laytpl.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/layui/lay/modules/mobile.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/layui/lay/modules/rate.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/layui/lay/modules/slider.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/layui/lay/modules/table.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/layui/lay/modules/transfer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/layui/lay/modules/tree.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/layui/lay/modules/upload.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/layui/lay/modules/util.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/layui/layui.all.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/layui/layui.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/log4j.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/mapper/Dept.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/net/MybootApplication.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/net/Service/UserService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/net/Service/UserServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/net/aop/AopUser.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/net/aop/SleepHelper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/net/dao/UserDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/net/javabean/Client.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/net/javabean/LayuiDate.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/net/javabean/List2TreeUtil.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/net/javabean/Menu.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/net/javabean/MenuLayui.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/net/javabean/Myfile.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/net/servlet/JumpController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/net/servlet/UserController.class" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="JX190721@192.168.31.128" type="feb32156:DbDataSourceImpl" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="JX190721@192.168.31.128" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="JX190721@192.168.31.128" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="jx190721: schema" type="76f4a085:MysqlImplModel$Schema" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="isMigrated" value="true" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/net/servlet/UserController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="50" column="13" selection-start-line="50" selection-start-column="13" selection-end-line="50" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/net/Service/UserServiceImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1944">
+              <caret line="90" selection-start-line="90" selection-end-line="90" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="FxmlFile" />
+        <option value="Jsp File" />
+        <option value="HTML File" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>doctorAppointTable</find>
+      <find>query_input</find>
+      <find>fi</find>
+      <find>query_pa</find>
+      <find>user_name</find>
+      <find>filename</find>
+      <find>dataSource</find>
+      <find>Dao</find>
+      <find>jdbc</find>
+      <find>web</find>
+      <find>com</find>
+      <find>druid</find>
+      <find>spring</find>
+      <find>conversionService</find>
+      <find>inner bean</find>
+      <find>servlet-api</find>
+      <find>allFile</find>
+      <find>allUser</find>
+      <find>servlet</find>
+      <find>jump</find>
+      <find>basepath</find>
+      <find>_para</find>
+      <find>MenuDto</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="UPDATE_TYPE" value="REBASE" />
+    <option name="ROOT_SYNC" value="DONT_SYNC" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/main/webapp/backgroup/jsp/backgroupmain.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/front/html/FrontMain.html" />
+        <option value="$PROJECT_DIR$/src/main/java/net/javabean/Myfile.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/backgroup/jsp/usermanager.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/front/jsp/myDocumentsDemo.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/net/servlet/JumpServlet.java" />
+        <option value="$PROJECT_DIR$/src/main/java/net/dao/Example.java" />
+        <option value="$PROJECT_DIR$/src/main/java/net/servlet/UserServlet.java" />
+        <option value="$PROJECT_DIR$/src/main/java/net/servlet/BaseServlet.java" />
+        <option value="$PROJECT_DIR$/src/main/java/net/SleepHelper.java" />
+        <option value="$PROJECT_DIR$/src/main/java/net/aop/user.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Tset.java" />
+        <option value="$PROJECT_DIR$/src/main/java/net/aop/SleepHelper.java" />
+        <option value="$PROJECT_DIR$/src/main/java/net/javabean/Client.java" />
+        <option value="$PROJECT_DIR$/src/main/java/net/aop/AopUser.java" />
+        <option value="$PROJECT_DIR$/src/main/resource/applicationContext.xml" />
+        <option value="$PROJECT_DIR$/src/main/resource/jdbc.properties" />
+        <option value="$PROJECT_DIR$/src/main/resource/springmvc.xml" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/resource/application.properties" />
+        <option value="$PROJECT_DIR$/src/main/resource/SqlMapConfig.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/net/servlet/JumpController.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/front/jsp/mydoc.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/front/jsp/personinfo.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/front/jsp/myscore.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/front/jsp/login.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/front/jsp/frontmain.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/front/jsp/reg.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/front/jsp/updoc.jsp" />
+        <option value="$PROJECT_DIR$/src/main/resource/springmvc.fxml" />
+        <option value="$PROJECT_DIR$/src/main/java/net/MybootApplication.java" />
+        <option value="$PROJECT_DIR$/src/main/java/net/servlet/WebAppConfig.java" />
+        <option value="$PROJECT_DIR$/src/main/java/net/servlet/TestController.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
+        <option value="$PROJECT_DIR$/src/main/webapp/front/js/reglogin.js" />
+        <option value="$APPLICATION_CONFIG_DIR$/consoles/.datagrid/cell" />
+        <option value="$PROJECT_DIR$/src/main/webapp/index.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/net/javabean/Menu.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/backgroup/html/authority.html" />
+        <option value="$PROJECT_DIR$/src/main/java/net/javabean/MenuLayui.java" />
+        <option value="$PROJECT_DIR$/src/main/java/net/javabean/List2TreeUtil.java" />
+        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/493d3fb9-d6e1-41d5-8b85-156efe982561/console_1.sql" />
+        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/493d3fb9-d6e1-41d5-8b85-156efe982561/console_2.sql" />
+        <option value="$PROJECT_DIR$/src/main/java/net/Service/UserService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/net/Service/UserServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/backgroup/jsp/authority.jsp" />
+        <option value="$PROJECT_DIR$/src/main/resource/application.yml" />
+        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/493d3fb9-d6e1-41d5-8b85-156efe982561/console.sql" />
+        <option value="$PROJECT_DIR$/src/main/java/net/dao/UserDao.java" />
+        <option value="$PROJECT_DIR$/src/main/resource/mapper/Dept.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/net/servlet/UserController.java" />
+      </list>
+    </option>
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="D:\apache-maven-3.6.0-bin\jar_home" />
+        <option name="mavenHome" value="D:/apache-maven-3.6.0-bin/apache-maven-3.6.0" />
+        <option name="userSettingsFile" value="D:\apache-maven-3.6.0-bin\apache-maven-3.6.0\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand />
+      <select />
+    </treeState>
+  </component>
+  <component name="PhpServers">
+    <servers />
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="15" />
+    <option name="width" value="1386" />
+    <option name="height" value="788" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="DocShareMaven" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DocShareMaven" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ChangesTree.GroupingKeys" value="directory" />
+    <property name="DatabaseDriversLRU" value="mysql" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="ExpandSpringBootJavaOptionsPanel" value="true" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="database.console.LAST_STATE" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="settings.github" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\WorkSpace_IDEA\DocShareMaven\src\main\webapp" />
+      <recent name="D:\WorkSpace_IDEA\DocShareMaven\src\main\resource" />
+      <recent name="D:\WorkSpace_IDEA\DocShareMaven\src\main\webapp\WEB-INF" />
+      <recent name="D:\WorkSpace_IDEA\DocShareMaven\src\main\java\net" />
+      <recent name="D:\WorkSpace_IDEA\DocShareMaven\src\main\webapp\front\jsp" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\WorkSpace_IDEA\DocShareMaven\src\main\webapp\WEB-INF" />
+      <recent name="D:\WorkSpace_IDEA\DocShareMaven\src\main\webapp\front\js" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Spring Boot.MybootApplication">
+    <configuration name="AopUser.sleep" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="DocShareMaven" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="net.aop.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="net.aop" />
+      <option name="MAIN_CLASS_NAME" value="net.aop.AopUser" />
+      <option name="METHOD_NAME" value="sleep" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SleepHelper.sleepPointcut" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="DocShareMaven" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="net.aop.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="net.aop" />
+      <option name="MAIN_CLASS_NAME" value="net.aop.SleepHelper" />
+      <option name="METHOD_NAME" value="sleepPointcut" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Tset" type="JUnit" factoryName="JUnit" nameIsGenerated="true">
+      <module name="DocShareMaven" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="Tset" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Tset.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="DocShareMaven" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="Tset" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserController.menumanger" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="DocShareMaven" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="net.servlet.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="net.servlet" />
+      <option name="MAIN_CLASS_NAME" value="net.servlet.UserController" />
+      <option name="METHOD_NAME" value="menumanger" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MybootApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="DocShareMaven" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="net.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="net.MybootApplication" />
+      <option name="WORKING_DIRECTORY" value="file://$MODULE_WORKING_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Tomcat 8.5.31" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.5.31" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
+      <option name="COMMON_VM_ARGUMENTS" value="-Dfile.encoding=UTF-8" />
+      <option name="UPDATE_ON_FRAME_DEACTIVATION" value="true" />
+      <option name="UPDATE_CLASSES_ON_FRAME_DEACTIVATION" value="true" />
+      <deployment>
+        <artifact name="DocShareMaven:war exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="/DocShareMaven" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="Unnamed_DocShareMaven_2" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="52817" />
+      </RunnerSettings>
+      <RunnerSettings RunnerId="Debug with VisualVM">
+        <option name="DEBUG_PORT" value="52818" />
+        <option name="visualVMId" value="8283744400600" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug with VisualVM">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run with VisualVM">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="DocShareMaven:war exploded" />
+        </option>
+      </method>
+    </configuration>
+    <configuration default="true" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" ALTERNATIVE_JRE_ENABLED="false">
+      <deployment />
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="_DocShareMaven" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="52817" />
+      </RunnerSettings>
+      <RunnerSettings RunnerId="Debug with VisualVM">
+        <option name="DEBUG_PORT" value="52818" />
+        <option name="visualVMId" value="8283744400600" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug with VisualVM">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run with VisualVM">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="JUnit.Tset" />
+      <item itemvalue="JUnit.AopUser.sleep" />
+      <item itemvalue="JUnit.SleepHelper.sleepPointcut" />
+      <item itemvalue="JUnit.Tset.test" />
+      <item itemvalue="JUnit.UserController.menumanger" />
+      <item itemvalue="Spring Boot.MybootApplication" />
+      <item itemvalue="Tomcat Server.Tomcat 8.5.31" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.MybootApplication" />
+        <item itemvalue="JUnit.UserController.menumanger" />
+        <item itemvalue="JUnit.Tset.test" />
+        <item itemvalue="JUnit.AopUser.sleep" />
+        <item itemvalue="JUnit.SleepHelper.sleepPointcut" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="13c1ca8d-e2e3-4077-8f39-6730b0d85e06" name="Default Changelist" comment="" />
+      <created>1577763373330</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1577763373330</updated>
+      <workItem from="1577763376952" duration="6966000" />
+      <workItem from="1577882098738" duration="3896000" />
+      <workItem from="1577886900605" duration="5159000" />
+      <workItem from="1577926732643" duration="2378000" />
+      <workItem from="1577929171014" duration="38000" />
+      <workItem from="1577929275453" duration="4957000" />
+      <workItem from="1577936096538" duration="4446000" />
+      <workItem from="1577947417008" duration="7680000" />
+      <workItem from="1577962881105" duration="7628000" />
+      <workItem from="1578012680884" duration="8728000" />
+      <workItem from="1578106727259" duration="14945000" />
+      <workItem from="1578140284480" duration="7141000" />
+      <workItem from="1578150486197" duration="346000" />
+      <workItem from="1578191108447" duration="6880000" />
+      <workItem from="1578224734911" duration="597000" />
+      <workItem from="1578230365572" duration="1138000" />
+      <workItem from="1578232018858" duration="399000" />
+      <workItem from="1578232616655" duration="789000" />
+      <workItem from="1578233962268" duration="33000" />
+      <workItem from="1578235044847" duration="154000" />
+      <workItem from="1578272203493" duration="9779000" />
+      <workItem from="1578303235820" duration="2587000" />
+      <workItem from="1578358277160" duration="15191000" />
+      <workItem from="1578395614314" duration="12265000" />
+      <workItem from="1578444927199" duration="15797000" />
+      <workItem from="1578482088959" duration="4872000" />
+      <workItem from="1578531052301" duration="17349000" />
+      <workItem from="1578617517930" duration="8829000" />
+      <workItem from="1578709479037" duration="529000" />
+      <workItem from="1578721459733" duration="1192000" />
+      <workItem from="1578795815596" duration="2978000" />
+      <workItem from="1578880398928" duration="7484000" />
+      <workItem from="1578963553787" duration="1473000" />
+      <workItem from="1579333324267" duration="214000" />
+      <workItem from="1580470109626" duration="596000" />
+      <workItem from="1580525396440" duration="1796000" />
+      <workItem from="1580606073627" duration="4192000" />
+      <workItem from="1580693203810" duration="8364000" />
+      <workItem from="1580780248707" duration="6408000" />
+      <workItem from="1580865226524" duration="17538000" />
+      <workItem from="1580951528007" duration="27305000" />
+      <workItem from="1581038143091" duration="9199000" />
+      <workItem from="1581303547593" duration="30000" />
+      <workItem from="1581304458482" duration="3232000" />
+      <workItem from="1581382859967" duration="6253000" />
+      <workItem from="1581469870825" duration="1192000" />
+      <workItem from="1581559784870" duration="1296000" />
+      <workItem from="1581682076860" duration="597000" />
+      <workItem from="1581686916120" duration="71000" />
+      <workItem from="1581730526680" duration="2697000" />
+      <workItem from="1581734762286" duration="753000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="SleepHelper_sleepPointcut - 2020.01.07 at 10h 17m 25s.xml">
+      <configuration name="SleepHelper.sleepPointcut" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SleepHelper_sleepPointcut - 2020.01.07 at 10h 18m 32s.xml">
+      <configuration name="SleepHelper.sleepPointcut" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SleepHelper_sleepPointcut - 2020.01.07 at 10h 20m 42s.xml">
+      <configuration name="SleepHelper.sleepPointcut" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SleepHelper_sleepPointcut - 2020.01.07 at 10h 21m 07s.xml">
+      <configuration name="SleepHelper.sleepPointcut" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Tset_test - 2020.01.07 at 10h 23m 05s.xml">
+      <configuration name="Tset.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="user_sleep - 2020.01.07 at 10h 37m 57s.xml">
+      <configuration name="user.sleep" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="user_sleep - 2020.01.07 at 10h 49m 24s.xml">
+      <configuration name="user.sleep" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Tset_test - 2020.01.07 at 10h 52m 06s.xml">
+      <configuration name="Tset.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="UserController_menumanger - 2020.02.05 at 21h 34m 22s.xml">
+      <configuration name="UserController.menumanger" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="UserController_menumanger - 2020.02.05 at 21h 35m 03s.xml">
+      <configuration name="UserController.menumanger" configurationId="JUnit" />
+    </history-entry>
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="276356000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2632375" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Designer" order="2" />
+      <window_info id="UI Designer" order="3" />
+      <window_info id="Favorites" order="4" side_tool="true" />
+      <window_info id="Web" order="5" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.33904108" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49924356" weight="0.12328767" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.18835616" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.49848714" visible="true" weight="0.24657534" />
+      <window_info anchor="bottom" id="FindBugs-IDEA" order="7" weight="0.32876712" />
+      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.4969743" weight="0.32876712" />
+      <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Sequence" order="10" />
+      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.5015129" side_tool="true" visible="true" weight="0.24657534" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.08732877" />
+      <window_info anchor="bottom" id="Run with VisualVM" order="13" />
+      <window_info anchor="bottom" id="Java Enterprise" order="14" />
+      <window_info anchor="bottom" id="Database Changes" order="15" />
+      <window_info anchor="bottom" id="Version Control" order="16" />
+      <window_info anchor="bottom" id="Debug with VisualVM" order="17" />
+      <window_info anchor="bottom" id="MyBatis Log" order="18" />
+      <window_info anchor="bottom" id="Tail" order="19" />
+      <window_info anchor="bottom" id="Database Console" order="20" weight="0.43835616" />
+      <window_info anchor="bottom" id="Application Servers" order="21" weight="0.7191781" />
+      <window_info anchor="bottom" id="Spring" order="22" weight="0.32876712" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.24962178" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Maven" order="3" weight="0.16490166" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="right" id="Database" order="5" visible="true" weight="0.16944024" />
+      <window_info anchor="right" id="Palette&#9;" order="6" />
+      <window_info anchor="right" id="RestServices" order="7" />
+      <window_info anchor="right" id="Bean Validation" order="8" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="文档管理系统" />
+    <option name="LAST_COMMIT_MESSAGE" value="文档管理系统" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/net/javabean/List2TreeUtil.java</url>
+          <line>27</line>
+          <properties />
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/net/servlet/UserController.java</url>
+          <line>54</line>
+          <properties />
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/main/resource/SqlMapConfig.xml" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/net/servlet/UserServlet.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/net/servlet/JumpServlet.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/front/jsp/personinfo.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="267">
+          <caret line="34" column="52" selection-start-line="34" selection-start-column="52" selection-end-line="34" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/front/jsp/myscore.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="281">
+          <caret line="55" column="52" selection-start-line="55" selection-start-column="52" selection-end-line="55" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/front/jsp/mydoc.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="900">
+          <caret line="113" column="52" selection-start-line="113" selection-start-column="52" selection-end-line="113" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/front/jsp/frontmain.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-981">
+          <caret line="33" column="32" selection-start-line="33" selection-start-column="32" selection-end-line="33" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/front/jsp/reg.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="35" column="24" lean-forward="true" selection-start-line="35" selection-start-column="24" selection-end-line="35" selection-end-column="24" />
+          <folding>
+            <element signature="n#style#0;n#header#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/net/javabean/Myfile.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="6" column="19" selection-start-line="6" selection-start-column="15" selection-end-line="6" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/front/jsp/updoc.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="312">
+          <caret line="47" column="23" lean-forward="true" selection-start-line="47" selection-start-column="23" selection-end-line="47" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resource/springmvc.fxml" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/net/servlet/TestController.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/net/javabean/Client.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="12" column="19" selection-start-line="12" selection-start-column="19" selection-end-line="12" selection-end-column="19" />
+          <folding>
+            <element signature="e#2300#2301#0" expanded="true" />
+            <element signature="e#2322#2323#0" expanded="true" />
+            <element signature="e#2364#2365#0" expanded="true" />
+            <element signature="e#2392#2393#0" expanded="true" />
+            <element signature="e#2424#2425#0" expanded="true" />
+            <element signature="e#2446#2447#0" expanded="true" />
+            <element signature="e#2488#2489#0" expanded="true" />
+            <element signature="e#2516#2517#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/net/mybatis/MyBatisUtil.java" />
+    <entry file="das://493d3fb9-d6e1-41d5-8b85-156efe982561/schema/jx190721/table/myfile">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://493d3fb9-d6e1-41d5-8b85-156efe982561/schema/jx190721/table/client">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://493d3fb9-d6e1-41d5-8b85-156efe982561/schema/jx190721/table/refer">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/front/html/FrontMain.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1032">
+          <caret line="5" column="57" lean-forward="true" selection-start-line="5" selection-start-column="3" selection-end-line="5" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/front/css/forntmanager.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/backgroup/jsp/usermanager.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-696">
+          <caret line="157" column="16" selection-start-line="157" selection-start-column="16" selection-end-line="157" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/backgroup/jsp/login.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-141" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/backgroup/jsp/backgroupmain.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="33" column="20" selection-start-line="33" selection-start-column="20" selection-end-line="33" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/front/jsp/login.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="267">
+          <caret line="55" column="33" lean-forward="true" selection-start-line="55" selection-start-column="4" selection-end-line="55" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/front/js/reglogin.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="140" column="44" selection-start-line="140" selection-start-column="21" selection-end-line="140" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://493d3fb9-d6e1-41d5-8b85-156efe982561/schema/jx190721/table/client_role">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://493d3fb9-d6e1-41d5-8b85-156efe982561/schema/jx190721/table/role">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/backgroup/js/login.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="6" column="25" selection-start-line="6" selection-start-column="18" selection-end-line="6" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/backgroup/html/authority.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="184" column="19" selection-start-line="184" selection-start-column="19" selection-end-line="184" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/net/javabean/MenuLayui.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="326">
+          <caret line="32" column="5" selection-start-line="32" selection-start-column="5" selection-end-line="32" selection-end-column="5" />
+          <folding>
+            <element signature="e#287#288#0" expanded="true" />
+            <element signature="e#303#304#0" expanded="true" />
+            <element signature="e#334#335#0" expanded="true" />
+            <element signature="e#353#354#0" expanded="true" />
+            <element signature="e#445#446#0" expanded="true" />
+            <element signature="e#500#501#0" expanded="true" />
+            <element signature="e#531#532#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://493d3fb9-d6e1-41d5-8b85-156efe982561/schema/jx190721/table/menu">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/net/javabean/Menu.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="8" column="23" selection-start-line="8" selection-start-column="15" selection-end-line="8" selection-end-column="23" />
+          <folding>
+            <element signature="e#192#193#0" expanded="true" />
+            <element signature="e#211#212#0" expanded="true" />
+            <element signature="e#243#244#0" expanded="true" />
+            <element signature="e#265#266#0" expanded="true" />
+            <element signature="e#300#301#0" expanded="true" />
+            <element signature="e#325#326#0" expanded="true" />
+            <element signature="e#373#374#0" expanded="true" />
+            <element signature="e#407#408#0" expanded="true" />
+            <element signature="e#444#445#0" expanded="true" />
+            <element signature="e#471#472#0" expanded="true" />
+            <element signature="e#523#524#0" expanded="true" />
+            <element signature="e#561#562#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/493d3fb9-d6e1-41d5-8b85-156efe982561/console_1.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="3" column="165" selection-end-line="3" selection-end-column="165" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/493d3fb9-d6e1-41d5-8b85-156efe982561/console_2.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="50" lean-forward="true" selection-end-column="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/net/javabean/List2TreeUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="77">
+          <caret line="50" column="32" lean-forward="true" selection-start-line="50" selection-start-column="8" selection-end-line="50" selection-end-column="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://493d3fb9-d6e1-41d5-8b85-156efe982561/schema/jx190721/table/menu_role">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/493d3fb9-d6e1-41d5-8b85-156efe982561/console.sql">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/net/dao/UserDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="792">
+          <caret line="44" column="22" selection-start-line="44" selection-start-column="22" selection-end-line="44" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resource/mapper/Dept.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="267">
+          <caret line="99" column="16" selection-start-line="99" selection-start-column="9" selection-end-line="99" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/backgroup/jsp/authority.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="267">
+          <caret line="87" column="28" selection-start-line="87" selection-start-column="28" selection-end-line="87" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="10" column="19" selection-start-line="10" selection-start-column="19" selection-end-line="10" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/index.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="613">
+          <caret line="53" column="40" selection-start-line="53" selection-start-column="40" selection-end-line="53" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resource/log4j.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="8" column="23" selection-start-line="8" selection-start-column="23" selection-end-line="8" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/net/MybootApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="277">
+          <caret line="15" column="1" lean-forward="true" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/net/servlet/WebAppConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="6" column="3" lean-forward="true" selection-start-line="6" selection-start-column="3" selection-end-line="6" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/net/servlet/JumpController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="37">
+          <caret line="12" selection-start-line="12" selection-end-line="12" selection-end-column="11" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#612#613#0" expanded="true" />
+            <element signature="e#641#642#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resource/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-384">
+          <caret line="8" column="52" lean-forward="true" selection-start-line="8" selection-start-column="52" selection-end-line="8" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="301">
+          <caret line="152" lean-forward="true" selection-start-line="152" selection-end-line="152" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/net/Service/UserService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="888">
+          <caret line="37" column="43" selection-start-line="37" selection-start-column="37" selection-end-line="37" selection-end-column="43" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/素材/5e23d078bdc35/5e23d078bdc35/jobtype.html" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/net/servlet/UserController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="50" column="13" selection-start-line="50" selection-start-column="13" selection-end-line="50" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/net/Service/UserServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1944">
+          <caret line="90" selection-start-line="90" selection-end-line="90" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>Web|DocShareMaven</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: aopalliance:aopalliance:1.0</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

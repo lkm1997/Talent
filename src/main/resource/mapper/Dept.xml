@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="net.dao.UserDao">
+
+	<select id="userLogin" resultType="net.javabean.Client" parameterType="string">
+		select clientid, account, password, sexy, educationid, profession, phone, email, statusid, integral, regtime from client where ACCOUNT = #{_parameter}
+	</select>
+
+
+	<insert id="insertClient" parameterType="net.javabean.Client">
+		insert into client (account, password, sexy, educationid, profession, phone, email, statusid, regtime, integral, DOWN, UP, SCORE ) values (#{account}, #{password}, #{sexy}, #{educationid}, #{profession}, #{phone}, #{email}, 0, #{regtime} ,0,0,0,0)
+	</insert>
+
+	<select id="allUserCount" resultType="int" parameterType="java.util.Map">
+		select count(*) from client
+		<where>
+			<if test="account != null and account !=''">
+				and ACCOUNT like #{account}
+			</if>
+			<if test="startTime != null and startTime !=''">
+				and REGTIME between #{startTime} and #{endTime}
+			</if>
+		</where>
+	</select>
+
+	<select id="allUser" resultType="net.javabean.Client" parameterType="java.util.Map">
+		select CLIENTID, ACCOUNT, PASSWORD, SEXY, EDUCATIONID, PROFESSION, PHONE, EMAIL, STATUSID, INTEGRAL, REGTIME, DOWN, UP, SCORE from client
+		<where>
+			<if test="account != null and account !=''">
+				and ACCOUNT like #{account}
+			</if>
+			<if test="startTime != null and startTime !=''">
+				and REGTIME between #{startTime} and #{endTime}
+			</if>
+		</where>
+	</select>
+
+	<update id="updateState" parameterType="java.util.Map">
+		update client set
+		<if test="state == 1">
+			STATUSID = 0
+		</if>
+		<if test="state == 0">
+			STATUSID = 1
+		</if>
+		<if test="state == 2">
+			STATUSID = 2
+		</if>
+		where ACCOUNT = #{account}
+	</update>
+
+	<select id="allFileCount" resultType="int" parameterType="java.util.Map">
+		select count(*) from myfile
+		<where>
+			<if test="account != null and account !=''">
+				and CLIENTID = #{account}
+			</if>
+			<if test="filename != null and filename !=''">
+				and TITLE like #{filename}
+			</if>
+		</where>
+	</select>
+
+	<select id="allFile" resultType="net.javabean.Myfile" parameterType="java.util.Map">
+		select FILEID, "TIME", FEES, TYPEID, STATUSID, INTRO, DOWNLOADS, CLIENTID, TITLE from myfile
+		<where>
+			<if test="account != null and account !=''">
+				and CLIENTID = #{account}
+			</if>
+			<if test="filename != null and filename !=''">
+				and TITLE like #{filename}
+			</if>
+		</where>
+	</select>
+
+	<select id="allMenu" resultType="net.javabean.Menu">
+		select A1.*,A.MENUNAME FATHERNAME
+		from menu A,menu A1,menu_role B,role C,client_role D,client E
+		where A.MENUID = A1.FATHERID  and A1.MENUID in
+		(select MENUID from menu_role where menu_role.ROLEID=1) or A1.FATHERID = 0 group by A1.MENUID
+	</select>
+
+	<select id="unMenu" resultType="net.javabean.Menu">
+		select A1.*,A.MENUNAME FATHERNAME
+		from menu A,menu A1,menu_role B,role C,client_role D,client E
+		where A.MENUID = A1.FATHERID  and A1.MENUID in
+		(select MENUID from menu_role where menu_role.ROLEID=0 and MENUID not in
+		(select MENUID from menu_role where menu_role.ROLEID=1)) or A1.FATHERID=0 group by A1.MENUID
+	</select>
+
+	<insert id="addMenu" parameterType="int">
+		insert into menu_role (MENUID,ROLEID) values
+		<foreach collection="addlist" item="id"  separator=",">
+			(#{id},1)
+		</foreach>
+	</insert>
+
+	<delete id="delMenu" parameterType="int" >
+		delete from menu_role where ROLEID = 1 and MENUID in
+		<foreach collection="dellist" item="id" open="(" separator="," close=")">
+			#{id}
+		</foreach>
+	</delete>
+
+
+	<!--	<insert id="addDept" parameterType="Dept" keyProperty="deptno" useGeneratedKeys="true" >-->
+<!--		insert into T_DEPT (DNAME,LOC) values (#{dname},#{loc})-->
+<!--	</insert>-->
+
+
+
+<!--	<select id="findById" parameterType="java.lang.Integer" resultType= "Client">-->
+<!--		select * from client where CLIENTID=#{id}-->
+<!--	</select>-->
+<!--	<select id="selectDept" parameterType="java.util.Map" resultType="Myfile">-->
+<!--		select * from myfile where CLIENTID=#{id} and STATUSID =#{status}-->
+<!--	</select>-->
+<!--	<resultMap type="Client" id="empMap" >-->
+<!--&lt;!&ndash;		                                      自定义的值=数据库的值&ndash;&gt;-->
+<!--		<association property="myfile" column="id=id,status=status" javaType="Client"-->
+<!--					 select="selectDept">-->
+<!--		</association>-->
+<!--	</resultMap>-->
+
+<!--	<select id="findById" parameterType="java.lang.Integer" resultMap=-->
+<!--			"deptEmpsResult">-->
+<!--		select d.deptno,d.dname,d.loc，e.empno,e.ename,e.job,e.mgr,e.sal, e.comm,e.hiredate from EMP e join DEPT d on(d.deptno=e.deptno)-->
+<!--		where d.deptno = #{deptno}-->
+<!--	</select>-->
+<!--	<resultMap id="deptEmpsResult" type="Dept">-->
+<!--		<id property="deptno" column="DEPTNO" />-->
+<!--		<result property="dname" column="DNAME" />-->
+<!--		<result property="loc" column="LOC" />-->
+<!--		<collection property="emps" ofType="Emp">-->
+<!--			<id property="empno" column="EMPNO" />-->
+<!--			<result property="ename" column="ENAME" />-->
+<!--		</collection>-->
+<!--	</resultMap>-->
+<!--	<insert id="">-->
+<!--		-->
+<!--		<foreach collection="List" item="item" index="index" separator=",">-->
+<!--			{-->
+<!--			}-->
+<!--		</foreach>-->
+<!--		-->
+<!--	</insert>-->
+
+</mapper>
+	
